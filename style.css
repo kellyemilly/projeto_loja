@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.body {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+
+}
+.li a {
+    list-style: none;
+    background-color: #FFFFFF;
+}
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #7C71FF;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+li {
+    display: inline-block;
+    background-color: #D7E2FF;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D7E2FF;
+    width: 100%;
+    height: 530px;
+    font-size: 28px;
+}
+.topico-principal {
+    text-align: center;
+    font-size: 32px;
+    color: #200065;
+}
+.container article {
+    margin: 56px;
+    display: inline-block;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    background-color: #D4E0FF;
+    border-width: 10px;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    border-color: #D4E0FF;
+    flex-shrink: 0;
+}
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.compras {
+    background-color: #D7E2FF;
+    height: 300px;
+}
+.pedidos {
+    text-align: center;
+    align-items: center;
+    color:#200065;
+    font-size: 32px;
+    background-color: #D7E2FF;
+
+}
+.clientinhos {
+    background-color: #AEBFEB;
+}
+.tabeladeprecos {
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tabeladeprecos table {
+    border-collapse: collapse;
+}
+
+.tabeladeprecos table th, .tabeladeprecos table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000;
+    min-width: 200px;
+
+}    
+.contato {
+    background-color: #AEBFEB;
+    height: 450px;
+}
+.faleconosco {
+    text-align: center;
+    color:#200065;
+    font-size: 32px;
+    
+}
+.alofalacomigo {
+    margin: 56px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.info-usuario {
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+.nome {
+    text-transform: uppercase;
+}
+
+.rodape {
+    background-color: #3F3F3F;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
